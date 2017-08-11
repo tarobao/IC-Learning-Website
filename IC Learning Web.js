@@ -1,40 +1,10 @@
+/* 
+Brian Yang
+Website for IC Learning Center
+Started on 7/4/17
+*/
 $(document).ready(function(){
-  $(".wowza").mouseenter(function(){
-    $("#panel1").animate({
-      left:'-150px'
-    })
-    $("#panel2").animate({
-      width:'270px'
-    })
-   /* $("h2").animate({
-      'font-size':'39'
-    })*/
-  });
-
-  $(".wowza").mouseleave(function(){
-    $("#panel1").animate({
-      left:'-420px'
-    })
-    $("#panel2").animate({
-      width:'1px'
-    })/*
-    $("h2").animate({
-      'font-size':'38'
-    })*/
-  });
-/*
-  $("#NYC").mouseenter(function(){
-   $("#NYC").animate({
-      opacity: '1'
-    });
- });
-
-  $("#NYC").mouseleave(function(){
-   $("#NYC").animate({
-      opacity: '.9'
-    });
- });*/
-
+  
   $("#logo").mouseenter(function(){
    $("#logo").animate({
       opacity: '1'
