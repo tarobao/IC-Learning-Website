@@ -1,5 +1,6 @@
 /* 
 Brian Yang
+IC Learning Web CSS File
 Website for IC Learning Center
 Started on 7/4/17
 */
@@ -346,7 +347,7 @@ background-color: skyblue;
 
 .weekendprogram{
   position: absolute;
-  top: 1300px;
+  top: 1280px;
 }
 
 .weekendprogram h6{
@@ -359,7 +360,7 @@ background-color: skyblue;
 
 .weekendprogram ul{
   position: absolute;
-  top: 56px;
+  top: 119px;
   left: 200px;
   margin: 0px;
 }
@@ -368,12 +369,23 @@ background-color: skyblue;
   list-style-type: none;
   font-family: courier;
   font-size: 20px;
-  line-height: 190px;
+  line-height: 175px;
   text-transform: uppercase;
   text-align: right;
 }
 
-#Eng{
+#weekendDurationTag{
+  font-family: courier;
+  font-size: 20px;
+  line-height: 175px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 45px;
+  left: 227px;
+
+}
+
+#weekendDuration{
   position:absolute;
   top: 120px;
   font-family: 'Lato', sans-serif;
@@ -383,9 +395,19 @@ background-color: skyblue;
   height:300px;
 }
 
+#Eng{
+  position:absolute;
+  top: 175px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  left: 340px;
+  width: 700px;
+  height:300px;
+}
+
 #Mat{
   position: absolute;
-  top: 310px;
+  top: 350px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   left: 340px;
@@ -444,7 +466,7 @@ background-color: lightpink;
 
 .stateprogram{
   position: absolute;
-  top: 1960px;
+  top: 1990px;
 }
 
 .stateprogram h7{
@@ -456,8 +478,8 @@ background-color: lightpink;
 
 .stateprogram ul{
   position: absolute;
-  top: 45px;
-  left: 185px;
+  top: 50px;
+  left: 235px;
   margin: 0px;
 }
 
@@ -465,7 +487,7 @@ background-color: lightpink;
   list-style-type: none;
   font-family: courier;
   font-size: 20px;
-  line-height: 80px;
+  line-height: 70px;
   text-transform: uppercase;
   text-align: right;
 }
@@ -481,7 +503,7 @@ position: relative;
 
 #text{
   position: absolute;
-  top: 135px;
+  top: 125px;
   left: 385px;
   width: 670px;
   height:300px;
@@ -492,7 +514,7 @@ position: relative;
 
 #special{
   position: absolute;
-  top: 270px;
+  top: 250px;
   left: 385px;
   width: 670px;
   height:300px;
@@ -561,9 +583,19 @@ position: relative;
   font-family: courier;
 }
 
+#r2sDuration{
+  position: absolute;
+  top: 4390px;
+  left: 350px;
+  width: 700px;
+  height: 385px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
 #r2sinfo{
   position: absolute;
-  top: 4400px;
+  top: 4440px;
   left: 350px;
   width: 700px;
   height: 385px;
@@ -573,7 +605,7 @@ position: relative;
 
 #r2sinfo1{
   position: absolute;
-  top: 4580px;
+  top: 4600px;
   left: 350px;
   width: 700px;
   height: 385px;
@@ -581,10 +613,21 @@ position: relative;
   font-size: 18px;
 }
 
+#durationTag{
+  position: absolute;
+  left: 240px;
+  top: 4318px;
+  font-family: courier;
+  font-size: 20px;
+  line-height: 160px;
+  text-transform: uppercase;
+  text-align: right;
+
+}
 .r2s ul{
   position: absolute;
-  top: 4335px;
-  left: 206px;
+  top: 4388px;
+  left: 213px;
   margin: 0px;
 }
 
@@ -592,7 +635,7 @@ position: relative;
   list-style-type: none;
   font-family: courier;
   font-size: 20px;
-  line-height: 180px;
+  line-height: 160px;
   text-transform: uppercase;
   text-align: right;
 }
@@ -648,7 +691,7 @@ position: relative;
 
 .w2s{
   position: absolute;
-  top: -1730px ;
+  top: -1750px ;
 }
 
 .w2s h9{
@@ -659,51 +702,60 @@ position: relative;
   font-family: courier;
 }
 
-#w2sinfo{
+#w2sDuration{
   position: absolute;
   top: 5020px;
   left: 320px;
   width: 700px;
   height: 385px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+}
+#w2sinfo{
+  position: absolute;
+  top: 5070px;
+  left: 320px;
+  width: 700px;
+  height: 385px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 #w2sinfo1{
   position: absolute;
-  top: 5100px;
+  top: 5140px;
   left: 350px;
   width: 700px;
   height: 385px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
 #w2sinfo2{
 position: absolute;
-  top: 5180px;
+  top: 5222px;
   left: 350px;
   width: 700px;
   height: 385px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #w2sinfo3{
 position: absolute;
-  top: 5260px;
+  top: 5280px;
   left: 350px;
   width: 700px;
   height: 385px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .w2s ul{
   position: absolute;
-  top: 5040px;
-  left: 215px;
+  top: 5025px;
+  left: 169px;
   margin: 0px;
 }
 
@@ -711,7 +763,7 @@ position: absolute;
   list-style-type: none;
   font-family: courier;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 50px;
   text-transform: uppercase;
   text-align: right;
 }
@@ -767,7 +819,7 @@ position: absolute;
 
 .engread{
   position: absolute;
-  top: -1750px ;
+  top: -1770px ;
 }
 .engread h10{
    position: relative;
@@ -777,9 +829,20 @@ position: absolute;
   font-family: courier;
 }
 
+#engDuration{
+   position: absolute;
+  top: 5635px;
+  left: 320px;
+  width: 700px;
+  height: 385px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+
+}
+
 #enginfo{
   position: absolute;
-  top: 5630px;
+  top: 5685px;
   left: 320px;
   width: 700px;
   height: 385px;
@@ -790,7 +853,7 @@ position: absolute;
 
 #enginfo1{
   position: absolute;
-  top: 5740px;
+  top: 5790px;
   left: 350px;
   width: 700px;
   height: 385px;
@@ -801,7 +864,7 @@ position: absolute;
 
 #enginfo2{
   position: absolute;
-  top: 5810px;
+  top: 5860px;
   left: 350px;
   width: 700px;
   height: 385px;
@@ -811,7 +874,7 @@ position: absolute;
 
 #enginfo3{
   position: absolute;
-  top: 5870px;
+  top: 5920px;
   left: 350px;
   width: 700px;
   height: 385px;
@@ -821,7 +884,7 @@ position: absolute;
 
 #enginfo4{
   position: absolute;
-  top: 5930px;
+  top: 5980px;
   left: 350px;
   width: 700px;
   height: 385px;
@@ -831,8 +894,8 @@ position: absolute;
 
 .engread ul{
   position: absolute;
-  top: 5647px;
-  left: 215px;
+  top: 5640px;
+  left: 165px;
   margin: 0px;
 
 }
@@ -841,7 +904,7 @@ position: absolute;
   list-style-type: none;
   font-family: courier;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 50px;
   text-transform: uppercase;
   text-align: right;
 }
@@ -896,7 +959,7 @@ position: absolute;
 
 .mathread{
   position: absolute;
-  top: -1730px;
+  top: -1770px;
 }
 .mathread h11{
   position: relative;
@@ -906,19 +969,29 @@ position: absolute;
   font-family: courier;
 }
 
-#matinfo{
+#matDuration{
   position: absolute;
   top: 6250px;
   left: 350px;
   width: 670px;
   height: 385px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+#matinfo{
+  position: absolute;
+  top: 6310px;
+  left: 350px;
+  width: 670px;
+  height: 385px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 .mathread ul1{
   position: relative;
-  top: 6355px;
+  top: 6385px;
   left: 570px;
   margin: 0px;
 
@@ -934,7 +1007,7 @@ position: absolute;
 
 .mathread ul2{
   position: relative;
-  top: 6380px;
+  top: 6410px;
   left: 570px;
   margin: 0px;
 
@@ -950,8 +1023,8 @@ position: absolute;
 
 .mathread ul3{
   position: absolute;
-  top: 6270px;
-  left: 295px;
+  top: 6250px;
+  left: 245px;
   margin: 0px;
 
 }
@@ -960,14 +1033,14 @@ position: absolute;
   list-style-type: none;
   font-family: courier;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 60px;
   text-transform: uppercase;
   text-align: right;
 }
 
 .mathread ul4{
   position: absolute;
-  top: 6341px;
+  top: 6391px;
   left: 218px;
   margin: 0px;
 
@@ -1019,6 +1092,47 @@ position: absolute;
   width: 130px;
   background-color: skyblue;
 }
+
+.slider{
+  position: relative;
+  top: 3980px;
+}
+
+
+.pictureSlide{
+  position: absolute;
+  left: 220px;
+  right: 230px; 
+  top: 265px;
+  width: 700px;
+  height: 420px;
+  margin: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-color:lightpink;
+}
+
+#students{
+  position: absolute;
+  font-size: 55px;
+  top: 200px;
+  font-family:'Lato', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightpink;
+  padding: 10px;
+  left: 250px;
+  right: 250px;
+  text-align: center;
+  margin: auto;
+  border-radius: 80px;
+  color: lightpink;
+}
+
+
+
 #little31{
   position: absolute;
   left: 0px;
@@ -1057,79 +1171,12 @@ position: absolute;
    background-color: lightpink;
 }
 
-.pictureSlide{
-  position: absolute;
-  left: 230px;
-  right: 230px; 
-  top: 745px;
-  width: 700px;
-  height: 470px;
-  margin: 50px;
-  border-style: solid;
-  border-width: 5px;
-  border-color:skyblue;
-}
-
-#students{
-  position: absolute;
-  font-size: 55px;
-  top: 680px;
-  font-family:'Lato', sans-serif;
-  text-transform: uppercase;
-  color: black;
-  border-style: solid;
-  border-width: 3px;
-  border-color: skyblue;
-  padding: 10px;
-  left: 250px;
-  right: 250px;
-  text-align: center;
-  margin: auto;
-  border-radius: 80px;
-  color: skyblue;
-}
-
-.slider{
+.Staff{
   position: relative;
-  top: 3980px;
-}
-
-
-#little35{
-  position: absolute;
-  left: 0px;
-  top: 6125px;
-  height: 80px;
-  width: 130px;
-   background-color: lightpink;
-}
-#little36{
-  position: absolute;
-  right: 0px;
- top: 6125px;
-  height: 80px;
-  width: 130px;
-    background-color: lightpink;
-  }
-/*End of tenth page*/
-
-/*Start of eleventh page*/
-#little37{
-position: absolute;
-left: 0px;
-top: 6210px;
-height: 80px;
-width: 130px;
-background-color: skyblue;
-}
-
-#little38{
-  position: absolute;
-  right: 0px;
-   top: 6210px;
-  height: 80px;
-  width: 130px;
-    background-color: skyblue;
+  top: 3460px;
+  font-family: courier;
+  color: skyblue;
+  font-size: 32px;
 }
 
 #teachers{
@@ -1138,16 +1185,15 @@ background-color: skyblue;
   top: 1260px;
   font-family:'Lato', sans-serif;
   text-transform: uppercase;
-  color: black;
   border-style: solid;
   border-width: 3px;
-  border-color: pink;
+  border-color: skyblue;
   padding: 10px;
   left: 250px;
   right: 250px;
   text-align: center;
   border-radius: 50px;
-  color: pink;
+
 }
 
 #teacherpic1{
@@ -1205,14 +1251,6 @@ background-color: skyblue;
   height: 350px;
   width: 270px;
 
-}
-
-.Staff{
-  position: relative;
-  top: 3970px;
-  font-family: courier;
-  color: black;
-  font-size: 32px;
 }
 
 
@@ -1360,24 +1398,25 @@ background-color: skyblue;
   background-color: white;
 }
 
-#little39{
+#little35{
   position: absolute;
   left: 0px;
-  top: 7245px;
+  top: 6625px;
   height: 80px;
   width: 130px;
-     background-color: skyblue;
+   background-color: lightpink;
 }
-
-
-#little40{
+#little36{
   position: absolute;
   right: 0px;
- top: 7245px;
+ top: 6625px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+    background-color: lightpink;
   }
+/*End of tenth page*/
+
+/*Start of eleventh page*/
 
 /*End of eleventh page*/
 
@@ -1388,10 +1427,10 @@ background-color: skyblue;
   height: 600px;
   width: 600px;
   border-style: solid;
-  border-color: skyblue;
+  border-color: lightpink;
   border-width: 3px;
   border-radius: 580px;
-  top: 7350px;
+  top: 6800px;
   left: 350px;
 }
 
@@ -1405,6 +1444,10 @@ background-color: skyblue;
   border-radius: 5px;
 }
 
+#circContainer{
+  position: relative;
+  top: -1420px;
+}
 
 h13{
   position: absolute;
@@ -1442,7 +1485,7 @@ h15{
 h16{
   position: absolute;
   top: 7760px;
-  left: 418px;
+  left: 412px;
   font-family: courier;
   font-size: 20px;
 }
@@ -1450,7 +1493,7 @@ h16{
 #logo{
   position: absolute;
   left: 565px;
-  top: 7460px;
+  top: 6930px;
   width: 150px;
   height: 100px;
   border-style: solid;
@@ -1462,12 +1505,17 @@ h16{
 
 /*Start of thirteenth page*/
 
+#circ1Container{
+  position: relative;
+  top: -1300px;
+}
+
 #circ1{
   position: absolute;
   background-color: white;
   border-width: 3px;
   border-style: solid;
-  border-color: lightpink;
+  border-color: skyblue;
   height: 600px;
   width: 600px;
   border-radius: 580px;
@@ -1526,10 +1574,9 @@ h21{
   font-size: 24px;
 }
 
-
 #end{
   position: absolute;
-  top: 8750px;
+  top: 8250px;
   width: 1255px;
   height: 30px;
   background-color: lightpink;
