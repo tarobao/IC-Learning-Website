@@ -1,0 +1,371 @@
+<!-- 
+Brian Yang
+IC Learning Web HTML file
+Website for IC Learning Center
+Started on 7/4/17
+-->
+<!DOCTYPE html>
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="IC Learning Web.css"/>
+    <script src="IC Learning Web.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Start of first page -->
+    <div id="leftNavigation">
+        <nav>
+          <ul>
+            <li> <a href="#about" onclick="myAbout()">About Us ▽</a>
+          <ul>
+            <li> <a href="#kids" onclick="myKids()"> Our Students </a>
+            <li> <a href="#staff" onclick="myTeachers()"> Our Teachers </a>
+          </ul>
+            </li>
+            <li> <a href="#program" onclick="myPrograms()">Programs ▽</a>
+          <ul>
+            <li> <a href="#weekend" onclick="myWeekend()"> English and Math</a>
+            <li> <a href="#gifted" onclick="myTestPrep()"> State Test Prep </a>
+            <li> <a href="#read" onclick="myRead()"> Read to Succeed </a>
+            <li> <a href="#write" onclick= "myWrite()"> Write to Succeed </a>
+            <li> <a href="#engread" onclick= "myMiddleEnglish()" > English Readiness</a>
+            <li> <a href="#mathread" onclick= "myMiddleMath()">  Math Readiness</a>
+          </ul>
+            </li>
+          </ul>
+        <div id= "firstTopBar"></div>
+      </nav>
+    </div>
+        
+       
+    <div id="rightNavigation">
+          <nav>
+            <ul>
+              <li> <a href="#discount" onclick="myDiscount()">Discounts</a></li>
+              <li> <a href="#con" onclick="myContact()">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      <div class= "wowza">
+        <p1> <span>i</span>C </p1>
+        <img id="firstImage" src = "backImage.jpg" >
+        <h2 id= "firstTitle"> ic Learning Center  </h2>
+        <div id= "firstPageLeftBlueBlock"></div>
+        <div id="firstPageRightBlueBlock"></div>
+      </div>
+ 
+      <div id="block1">
+        <p id= "firstPageTextBlock">  <B>-Mission Statement-</B>
+        <br> IC is the individualized care given to each learner. 
+        The emphasis at iC Learning Center is geared towards preparing each individual 
+        for academic and personal success. 
+        No matter how small or big the improvement, 
+        our IC Learning Staff are always satisfied and excited to help more.</p>
+      </div>
+    
+      <div id="block2">
+        <p id="address">
+        Location: 109 Lafayette Street, Suite 805 
+        (between Canal Street &#38; Walker Street) 
+        New York, NY  10013</p>
+      </div>
+
+      <!--End of first page-->
+    
+      <!-- Start of first page
+      Little represents the corner small boxes -->
+      <div id= "little1"></div>
+      <div id= "little2"></div>
+
+      <h5 id="ourPrograms"> - Our Programs - </h5>
+      <!-- Put header under -->
+      <div class= "programs">
+        <ul>
+          <li> <a href="#weekend" onclick="myWeekend()"> - English and Math Weekend Program - </a></li>
+          <li> <a href="#gifted" onclick="myTestPrep()">- ELA &#38; Math State Test Prep -</a></li>
+          <li> <a href="#read" onclick="myRead()">- Read to Succeed Afterschool Program -</a></li>
+          <li> <a href="#write" onclick= "myWrite()">- Write to Succeed Afterschool Program -</a></li>
+          <li> <a href="#engread" onclick= "myMiddleEnglish()" >- Middle School English Readiness -</a></li>
+          <li> <a href="#mathread" onclick= "myMiddleMath()">- Middle School Math Readiness -</a></li>
+        </ul>
+      </div>
+
+      <img id="leftPic" src="path.jpg">
+      <img id="rightPic" src="log.jpg">
+
+      <div id= "little3"></div>
+      <div id= "little4"></div>
+      <!-- End of second page-->
+
+      <!-- Start of third page -->
+      <div id= "little5"></div>
+      <div id= "little6"></div>
+
+      <div id="whito1">
+        <div class="weekendprogram">
+          <div id="pinkbox1"></div>
+          <h6>- English and Math Weekend Program-</h6>
+          <p id="weekendDurationTag"> Duration: </p>
+          <p id= "weekendDuration"> Saturdays and Sundays, 2 hours </p>
+          <p id= "Eng"> The curriculum begins with Phonics and progresses to Advanced Grammar. Your child will improve his/her reading comprehension skills, and learn the best approach to responding to short answer questions and multiple choice questions. Your child’s lexicon will greatly expand, and he/ she will learn to associate words with mental images. This is an essential step in the literacy process. </p>
+          <p id= "Mat"> Using the same Singaporean Math Method taught in schools, your child will learn and practice the essential basics of Addition, Subtraction, Multiplication and Division, building the confidence to approach and succeed at higher level math. Once a strong foundation has been established, your child will proceed to Algebra, Geometry, and Trigonometry.  </p>
+          <ul>
+            <li> English: </li>
+            <li> Math: </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id= "little7"></div>
+      <div id= "little8"></div>
+
+      <!-- End of third page-->
+ 
+
+      
+      <!-- Start of fourth page -->
+      <div id= "little9"></div>
+      <div id= "little10"></div>
+
+    
+        <div id= "white2"></div>
+        <div class="stateprogram">
+          <div id="bluebox1"></div>
+          <h7> - ELA &#38; Math State Test Prep - </h7>
+          <p id="registration">  Saturdays and Sundays, 3 hours</p>
+          <p id="text"> This is a weekend program (Sat or Sun) where your child will learn effective strategies to achieve high scores on NYC Statewide Exams. Students will practice a multitude of questions in a variety of formats, including Multiple-Choice, Numeric Entry, Word Problems, Short and Long Responses </p>
+          <p id="special"> We offer a free, personalized review session any day of the week. During this period, your child will go over critical concepts, strengthen his/her weak points, and further bolster his/ her test taking skills to go into any exam with the utmost confidence.  </p>
+          <ul>
+            <li> Duration: </li>
+            <li> Info: </li><br><br><br>
+            <li> Special: </li>
+          </ul>
+        </div>
+
+     
+      <div id= "little11"></div>
+      <div id= "little12"></div>
+      <!-- End of fourth page -->
+
+      
+      <!-- Start of fifth page -->
+      <div id= "little13"></div>
+      <div id= "little14"></div>
+
+      <div class="blue2">
+        <div id="whito3">
+          <!--<div id= "white3"></div>-->
+            <div class ="r2s">
+            <div id="pinkbox2"></div>
+            <h8> - Read to Succeed Afterschool Program - </h8>
+            <p id= "durationTag"> Duration: </p>
+            <p id= "r2sDuration"> Time slots vary, 1 hour </p>
+            <p id= "r2sinfo"> Trained instructors will assist each learner to understand story maps, and gain the ability to comprehend on a deeper level. Strategic instruction is given to assist each learner to improve his/her vocabulary and writing capabilities. Fifty minutes per class session, and students will be asked to recount the stories in their own words. Experienced instructors will assist each learner in developing his/her unique way of problem solving to produce a higher quality of academic work. </p>
+            <p id="r2sinfo1"> Two free classes are offered for this program. The ratio of teacher to students is 1:4, so that each learner can receive the individual attention necessary to succeed (Only iC Learning Center afterschool students are permitted to participate in this program). This program commences in September and runs throughout the entire school year. Options available for RS2 are: - twice (2x) per week or four (4x) times per week. </p>
+            <ul>
+              <li> Info: </li>
+              <li> Special: </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id= "little15"></div>
+      <div id= "little16"></div>
+      <!-- End of fifth page -->
+
+
+      <!-- Start of sixth page -->
+      <div id= "little17"></div>
+      <div id= "little18"></div>
+
+      <div class="pink2">
+        <div id="whito4">
+        <!--<div id= "white4"></div>-->
+          <div class="w2s">
+            <div id="bluebox2"></div>
+            <h9> - Write to Succeed Afterschool Program - </h9>
+            <p id="w2sDuration"> Time slots vary, 1.5 hour class </p>
+            <p id= "w2sinfo"> Your child will be placed in a small writing group where he/she will work with an experienced instructor to greatly improve his/her writing skills. This will involve: </p>
+            <p id="w2sinfo1">- Learning how to create a strong, appropriate main idea for narrative, descriptive, expository, and persuasive essays. </p>
+            <p id="w2sinfo2">- Finding critical, pertinent examples and concepts to support the main idea of an essay. </p>
+            <p id="w2sinfo3">- Learning how to effectively express his/her opinions, examples, research, ideas, etc. in a clear, organized manner that is intelligible to both the instructor and the reader. </p>
+            <ul>
+              <li> Duration: </li>
+              <li> Info: </li> 
+            </ul>
+          </div>
+        </div>
+       </div>
+
+
+      <div id= "little19"></div>
+      <div id= "little20"></div>
+      <!-- End of sixth page -->
+      
+      
+
+      <!-- Start of seventh page -->
+      <div id= "little21"></div>
+      <div id= "little22"></div>
+
+      <div class="blue3">
+      <!--<div id ="blu3"></div>-->
+        <div id="whito5">
+      <!--<div id= "white5"></div>-->
+          <div class= "engread">
+            <div id="pinkbox3"></div>
+            <h10> - Middle School English Readiness - </h10>
+            <p id= "engDuration"> Spring and Summer only </p>
+            <p id= "enginfo"> Our program is built to meet the expectations of the Common Core Standard Curriculum, and is designed to prepare students for more advanced schoolwork as well as the SHSAT. Our program is designed to help students achieve grade-level aptitude in these subjects by:</p>
+            <p id= "enginfo1"> - Learning to identify and correct grammar mistakes common to students who speak English as a second language </p>
+            <p id= "enginfo2"> - Developing vocabulary skills</p>
+            <p id= "enginfo3"> - Applying ELA skills towards writing advanced, middle school length essays</p>
+            <p id= "enginfo4"> - Becoming familiar with the peer-editing process and other writing techniques</p>
+            <ul>
+              <li> Duration: </li>
+              <li>  Info:</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id= "little23"></div>
+      <div id= "little24"></div>
+
+      <!-- End of seventh page -->
+
+      <!-- Start of eighth page-->
+      <div id= "little25"></div>
+      <div id= "little26"></div>
+      <div class="pink3">
+      <!--<div id ="pin3"></div>-->
+        <div id="whito6">
+   <!-- <div id= "white6"></div>-->
+          <div class ="mathread">
+            <div id="bluebox3"></div>
+            <h11> - Middle School Math Readiness - </h11>
+            <p id= "matDuration"> Spring and Summer only </p>
+            <p id= "matinfo"> An introductory class in mathematical logic and reasoning that will stand students well in later grades. Learn how to approachdifferent types of math problems, such as ones that will appear on the specialized high school exam. Topics will include: </p>
+            <ul1>
+              <li> - Addition, subtraction, multiplication and division </li>
+              <li> - Factors and multiples</li>
+              <li> - Proportions</li>
+              <li> - Number Patterns</li>
+            </ul1>
+            <ul2>
+              <li> - Percentages </li>
+              <li> - Statistics and Probability </li>
+              <li> - Interpreting Data </li>
+              <li> - Place Values </li>
+            </ul2>
+            <ul3>
+             <li> Duration: </li>
+              <li>  Info:</li>
+            </ul3>
+            <ul4>
+              <li>Operations and Algebraic Thinking:</li>
+              <li>Measurement and Data:</li>
+            </ul4>
+          </div>
+        </div>
+      </div>
+      <div id= "little27"></div>
+      <div id= "little28"></div>
+      <!-- End of eight path -->
+      
+      
+
+      <!-- Start of ninth page -->
+      <div id= "little29"></div>
+      <div id= "little30"></div>
+      
+      <div class="blue4">
+  <!--<div id ="blu4"></div>-->
+        <div id="whito7">
+        <div class="slider">
+        <h3 id="students"> - Meet Our Students - </h3>
+        <img class= "pictureSlide" name="slide">
+      </div>
+ <!-- <div id= "white7"></div>-->
+          <div id="pinkbox4"></div>
+        </div>
+      </div>
+
+      <div id= "little31"></div>
+      <div id= "little32"></div>
+       <!-- End of ninth page -->
+      
+    
+      <!-- Start of tenth page -->
+      <div id= "little33"></div>
+      <div id= "little34"></div>
+      <div class = "Staff">
+        <h4 id="teachers"> - Meet Our Teachers - </h4>
+        <img id= "teacherpic1" src="Ms. Melanie.jpg"><br>
+        <p id="teachername1"> -Ms.Melanie- </p>
+        <img id= "teacherpic2" src="Ms.Betty.jpg">
+        <p id="teachername2"> -Ms.Betty- </p>
+        <img id= "teacherpic3" src="Mr.Bowdeya.jpg">
+        <p id="teachername3"> -Mr.Bowdeya-  </p>
+        <img id= "teacherpic4" src="Mr.Wilson.jpg">
+        <p id="teachername4"> -Mr. Wilson- </p>
+        <img id= "teacherpic5" src="Ms.Sidra.jpg">
+        <p id="teachername5"> -Ms.Sidra- </p> 
+        <img id= "teacherpic6" src="Ms.Serina.jpg">
+        <p id="teachername6"> -Ms.Serina- </p> 
+      </div>
+      <div id= "little35"></div>
+      <div id= "little36"></div>
+      <!-- End of tenth page -->
+      
+
+
+     <!-- Start of eleventh page -->
+      <div class="pink4">
+      <!--<div id ="pin4"></div>-->
+        <div id="whito8">
+          <div id= "circ"></div>
+          <div id = "circContainer">
+            <div id="bluebox4"></div>
+            <h13> - Discounts - </h13>
+            <h14> Extra $100 off of any program</h14>
+            <h15> xa4329xb7s02x61287</h15>
+            <h16> Show or state this code to the director </h16>
+          </div>
+          <img id="logo" src="IC logo.jpg">
+        </div>
+      </div>
+      <!-- End of eleventh page -->
+
+      
+      <!-- Start of twelveth page-->
+      <div class="blue6">
+      <!--<div id ="blu6"></div>-->
+        <div id="whito9">
+          <div id= "circ1Container">
+          <div id= "circ1"></div>
+          <div id="pinkbox5"></div>
+          <h17> - Contact us -</h17>
+          <h18> Email us at: </h18>
+          <i class="fa"> &#9993;</i>
+          <h19> read2succeed@ictutoring.com </h19>
+          <h20> Call us at: </h20>
+          <h21> &#9742; (646)-852-6623 </h21>
+          </div>
+        </div>
+      </div>
+
+      <div id= "end"></div>
+      <!-- End of twelveth page-->
+    </div>
+  </body>
+</html>
