@@ -6,6 +6,11 @@ Started on 7/4/17
 */
 
 /*Start of first page*/
+
+body{
+  background-color: #fffaf0;;
+}
+
 #leftNavigation ul{
   margin: 0px;
   padding: 0px;
@@ -13,9 +18,10 @@ Started on 7/4/17
 
 #leftNavigation ul li{
   border: 1px solid;
-  border-color: white;
+  border-color: #ffeecc;
   font-size: 19px;
-  background-color: lightpink;
+  font-family: 'Lato', sans-serif ;
+  background-color: #fffaf0;
   width: 150px;
   height: 35px;
   line-height: 34px;
@@ -25,17 +31,18 @@ Started on 7/4/17
 }
 #leftNavigation ul li a{
   display: block;
-  color: white;
+  color: black;
   text-decoration: none;
 
 }
 
 #leftNavigation ul li a:hover{
-  background-color:skyblue;
+  background-color:#ffeecc;
 }
 
 #leftNavigation ul li ul li{
   display: none;
+  font-size: 16px;
 
 }
 
@@ -58,9 +65,10 @@ Started on 7/4/17
 
 #rightNavigation ul li{
   border: 1px solid;
-  border-color: white;
+  border-color: #ffeecc;
   font-size: 19px;
-  background-color: lightpink;
+    font-family: 'Lato', sans-serif ;
+  background-color: #fffaf0;
   width: 150px;
   height: 35px;
   line-height: 34px;
@@ -71,12 +79,12 @@ Started on 7/4/17
 
 #rightNavigation ul li a{
   display: block;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 #rightNavigation ul li a:hover{
-  background-color:skyblue;
+  background-color:#f5f5dc;
 }
 
 #rightNavigation ul li ul li{
@@ -110,18 +118,18 @@ nav{
   left: 0px;
   width: 1263px;
   height: 36px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
   z-index: -11;
   border-style: solid;
-  border-width:1px;
-  border-color: white;
+  border-width:2px;
+  border-color: #ffeecc;
 }
 
 .wowza{
   position: absolute;
   left: -8px;
   opacity: .9;
-  color: white;
+  color: #fffaf0;
   font-family: 'Lato', sans-serif;
   font-size: 45px;
   height: 150px;
@@ -135,7 +143,7 @@ p1{
   top: -180px;
   font-family: 'Lato', sans-serif;
   font-size: 80px;
-  color: white;
+  color: #fffaf0;
   background-color: lightpink;
   border-style: solid;
   border-width: 5px;
@@ -163,6 +171,7 @@ span{
   position: relative;
   top: -50px;
   margin: 250px;
+  color: #fffaf0;
 }
 
 #firstPageTextBlock{
@@ -179,16 +188,19 @@ span{
 
 #address{
   position:absolute;
-  top:535px;
+  top:515px;
   padding: 5px;
   left: 0px;
   font-size: 25px;
   color: black;
   font-family: 'Lato', sans-serif;
   text-align: left;
-  height: 50px;
+  height: 70px;
   width: 1252px;
   text-align: center;
+  background-color: #fffaf0;
+  z-index: -1;
+  line-height: 60px;
 }
 
 #firstPageLeftBlueBlock{
@@ -197,7 +209,7 @@ span{
   top:298px;
   height: 70px;
   width: 70px;
-  background-color: skyblue;
+  background-color:  #bee5f4;
   z-index: 1;
 }
 
@@ -207,7 +219,7 @@ span{
   top:298px;
   height: 70px;
   width: 70px;
-  background-color: skyblue;
+  background-color:  #bee5f4;
   z-index: 1;
 }
 /*End of first page*/
@@ -219,7 +231,7 @@ span{
   left: 0px;
   width: 130px;
   height: 80px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
 }
 
 #little2{
@@ -228,7 +240,7 @@ span{
   right: 0px;
   width: 130px;
   height: 80px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
 }
 
 #ourPrograms{
@@ -240,7 +252,7 @@ span{
   color: black;
   border-style: solid;
   border-width: 3px;
-  border-color: skyblue;
+  border-color: #bee5f4;
   padding: 10px;
   left: 250px;
   right: 250px;
@@ -251,6 +263,7 @@ span{
 
 .programs ul{
   margin: 0px;
+
 }
 
 .programs ul li{
@@ -266,7 +279,7 @@ span{
   border-style: solid;
   border-width: 2px;
   border-radius: 30px;
-  border-color: skyblue;
+  border-color: #bee5f4;
   
 }
 
@@ -285,6 +298,7 @@ span{
   top: 780px;
   width: 240px;
   height: 350px;
+  border-radius: 250px;
 }
 
 #rightPic{
@@ -293,6 +307,7 @@ span{
   width: 240px;
   height: 350px;
   right: 40px;
+  border-radius: 250px;
 }
 
 #little3{
@@ -301,7 +316,7 @@ span{
   left: 0px;
   width: 130px;
   height: 80px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
 }
 
  #little4{
@@ -310,7 +325,7 @@ span{
   right: 0px;
   width: 130px;
   height: 80px;
-  background-color: lightpink;
+  background-color:#ffe6e8;
 }
 
 /*End of second page */
@@ -323,7 +338,7 @@ span{
   left: 0px;
   width: 130px;
   height: 80px;
-background-color: skyblue;
+background-color: #bee5f4;
 }
 
 #little6{
@@ -332,7 +347,7 @@ background-color: skyblue;
   right: 0px;
   width: 130px;
   height: 80px;
-background-color: skyblue;
+background-color: #bee5f4;
 }
 
 #pinkbox1{
@@ -341,7 +356,7 @@ background-color: skyblue;
   left: 315px;
   width: 20px;
   height: 20px;
-  background-color: pink;
+  background-color: #ffe6e8;
   border-radius: 5px;
 }
 
@@ -421,7 +436,7 @@ background-color: skyblue;
   left: 0px;
   width: 130px;
   height: 80px;
-  background-color: skyblue;
+  background-color: #bee5f4;
 }
 
  #little8{
@@ -430,7 +445,7 @@ background-color: skyblue;
   right: 0px;
   width: 130px;
   height: 80px;
-   background-color: skyblue;
+   background-color: #bee5f4;
 }
 
 /*End of third page*/
@@ -442,7 +457,7 @@ background-color: skyblue;
   left: 0px;
   width: 130px;
   height: 80px;
-background-color: lightpink;
+background-color: #ffe6e8;
 }
 
 #little10{
@@ -451,7 +466,7 @@ background-color: lightpink;
   right: 0px;
   width: 130px;
   height: 80px;
- background-color: lightpink;
+ background-color: #ffe6e8;
 }
 
 #bluebox1{
@@ -460,7 +475,7 @@ background-color: lightpink;
   left: 353px;
   width: 20px;
   height: 20px;
-  background-color: lightblue;
+  background-color: #bee5f4;
   border-radius: 5px;
 }
 
@@ -529,7 +544,7 @@ position: relative;
   left: 0px;
   width: 130px;
   height: 80px;
-   background-color: lightpink;
+   background-color:#ffe6e8;
 }
 
  #little12{
@@ -538,7 +553,7 @@ position: relative;
   right: 0px;
   width: 130px;
   height: 80px;
-    background-color: lightpink;
+    background-color: #ffe6e8;
 }
 /*End of fourth page*/
 
@@ -549,7 +564,7 @@ position: relative;
   left: 0px;
   width: 130px;
   height: 80px;
- background-color: skyblue;
+ background-color: #bee5f4;
 }
 
 #little14{
@@ -558,7 +573,7 @@ position: relative;
   right: 0px;
   width: 130px;
   height: 80px;
- background-color: skyblue;
+ background-color: #bee5f4;
 }
 
 #pinkbox2{
@@ -567,7 +582,7 @@ position: relative;
   left: 280px;
   width: 20px;
   height: 20px;
-  background-color: pink;
+  background-color: #ffe6e8;
   border-radius: 5px;
 }
 
@@ -646,7 +661,7 @@ position: relative;
   left: 0px;
   width: 130px;
   height: 80px;
-   background-color: skyblue;
+   background-color: #bee5f4;
 }
 
  #little16{
@@ -655,7 +670,7 @@ position: relative;
   right: 0px;
   width: 130px;
   height: 80px;
-   background-color: skyblue;
+   background-color: #bee5f4;
 }
 
 /*End of fifth page*/
@@ -667,7 +682,7 @@ position: relative;
   top: 3105px;
   height: 80px;
   width: 130px;
-   background-color: lightpink;
+   background-color:#ffe6e8;
 }
 
 #little18{
@@ -676,7 +691,7 @@ position: relative;
   top: 3105px;
   height: 80px;
   width: 130px;
- background-color: lightpink;
+ background-color: #ffe6e8;
 }
 
 #bluebox2{
@@ -685,7 +700,7 @@ position: relative;
   left: 280px;
   width: 20px;
   height: 20px;
-  background-color: lightblue;
+  background-color: #bee5f4;
   border-radius: 5px;
 }
 
@@ -774,7 +789,7 @@ position: absolute;
   top: 3640px;
   height: 80px;
   width: 130px;
- background-color: lightpink;
+ background-color:#ffe6e8;
 }
 #little20{
   position: absolute;
@@ -782,7 +797,7 @@ position: absolute;
   top: 3640px;
   height: 80px;
   width: 130px;
-   background-color: lightpink;
+   background-color: #ffe6e8;
 }
 
 /*End of sixth page*/
@@ -795,7 +810,7 @@ position: absolute;
   top: 3725px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+  background-color: #bee5f4;
 }
 
 #little22{
@@ -804,7 +819,8 @@ position: absolute;
   top: 3725px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+  background-color: #bee5f4;
+
 }
 
 #pinkbox3{
@@ -813,7 +829,7 @@ position: absolute;
   left: 330px;
   width: 20px;
   height: 20px;
-  background-color: pink;
+  background-color: #ffe6e8;
   border-radius: 5px;
 }
 
@@ -914,7 +930,8 @@ position: absolute;
   top: 4260px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+  background-color: #bee5f4;
+   z-index: 1;
 }
 #little24{
   position: absolute;
@@ -922,7 +939,8 @@ position: absolute;
   top: 4260px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+  background-color: #bee5f4;
+   z-index: 1;
 }
 
 /*End of seventh page */
@@ -935,7 +953,8 @@ position: absolute;
   top: 4350px;
   height: 80px;
   width: 130px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
+   z-index: 1;
 }
 
 #little26{
@@ -944,7 +963,7 @@ position: absolute;
   top: 4350px;
   height: 80px;
   width: 130px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
 }
 
 #bluebox3{
@@ -953,7 +972,7 @@ position: absolute;
   left: 350px;
   width: 20px;
   height: 20px;
-  background-color: lightblue;
+  background-color: #bee5f4;
   border-radius: 5px;
 }
 
@@ -1061,7 +1080,7 @@ position: absolute;
   top: 4885px;
   height: 80px;
   width: 130px;
-   background-color: lightpink;
+   background-color:#ffe6e8;
 }
 #little28{
   position: absolute;
@@ -1069,7 +1088,7 @@ position: absolute;
    top: 4885px;
   height: 80px;
   width: 130px;
-  background-color: lightpink;
+  background-color:#ffe6e8;
 }
 /*End of eighth page*/
 
@@ -1081,7 +1100,7 @@ position: absolute;
   top: 4970px;
   height: 80px;
   width: 130px;
-   background-color: skyblue;
+   background-color: #bee5f4;
 }
 
 #little30{
@@ -1090,7 +1109,7 @@ position: absolute;
    top: 4970px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+  background-color: #bee5f4;
 }
 
 .slider{
@@ -1109,7 +1128,7 @@ position: absolute;
   margin: 50px;
   border-style: solid;
   border-width: 5px;
-  border-color:lightpink;
+  border-color:#ffe6e8;
 }
 
 #students{
@@ -1118,7 +1137,7 @@ position: absolute;
   top: 200px;
   font-family:'Lato', sans-serif;
   text-transform: uppercase;
-  color: black;
+  color: lightpink;
   border-style: solid;
   border-width: 3px;
   border-color: lightpink;
@@ -1128,7 +1147,6 @@ position: absolute;
   text-align: center;
   margin: auto;
   border-radius: 80px;
-  color: lightpink;
 }
 
 
@@ -1139,7 +1157,7 @@ position: absolute;
   top: 5505px;
   height: 80px;
   width: 130px;
-    background-color: skyblue;
+    background-color: #bee5f4;
 }
 #little32{
   position: absolute;
@@ -1147,7 +1165,7 @@ position: absolute;
  top: 5505px;
   height: 80px;
   width: 130px;
-  background-color: skyblue;
+  background-color: #bee5f4;
 }
 
 /*End of ninth page*/
@@ -1159,7 +1177,7 @@ position: absolute;
   top: 5590px;
   height: 80px;
   width: 130px;
-   background-color: lightpink;
+   background-color: #ffe6e8;
 }
 
 #little34{
@@ -1168,15 +1186,16 @@ position: absolute;
    top: 5590px;
   height: 80px;
   width: 130px;
-   background-color: lightpink;
+   background-color: #ffe6e8;
 }
 
 .Staff{
   position: relative;
   top: 3460px;
   font-family: courier;
-  color: skyblue;
+  color: #66c1e5;
   font-size: 32px;
+  background-color: #fffaf0;
 }
 
 #teachers{
@@ -1187,13 +1206,12 @@ position: absolute;
   text-transform: uppercase;
   border-style: solid;
   border-width: 3px;
-  border-color: skyblue;
+  border-color: #bee5f4;
   padding: 10px;
   left: 250px;
   right: 250px;
   text-align: center;
   border-radius: 50px;
-
 }
 
 #teacherpic1{
@@ -1258,7 +1276,6 @@ position: absolute;
   position: absolute;
   top: 1790px;
   left: 70px;
-  background-color: white;
   border-width: 2px;
   border-color: lightpink;
   border-style: solid;
@@ -1271,7 +1288,6 @@ position: absolute;
   position: absolute;
   top: 1790px;
   right: 555px;
-  background-color: white;
   font-size: 25px;
   border-width: 2px;
   border-color: lightpink;
@@ -1284,7 +1300,6 @@ position: absolute;
   position: absolute;
   top: 1790px;
   right: 70px;
-  background-color: white;
   font-size: 25px;
   border-width: 2px;
    border-color: lightpink;
@@ -1299,7 +1314,6 @@ position: absolute;
   position: absolute;
   top: 2240px;
   left: 70px;
-  background-color: white;
   border-width: 2px;
    border-color: lightpink;
   border-style: solid;
@@ -1312,7 +1326,6 @@ position: absolute;
   position: absolute;
   top: 2240px;
   right: 550px;
-  background-color: white;
   border-style: solid;
   border-width: 2px;
    border-color: lightpink;
@@ -1325,12 +1338,11 @@ position: absolute;
   position: absolute;
   top: 2240px;
   right: 75px;
-  background-color: white;
   border-style: solid;
   border-width: 2px;
- border-color: lightpink;
+  border-color: lightpink;
   padding: 5px;
-   font-family: courier;
+  font-family: courier;
   font-size: 25px;
 }
 
@@ -1404,7 +1416,7 @@ position: absolute;
   top: 6625px;
   height: 80px;
   width: 130px;
-   background-color: lightpink;
+   background-color: #ffe6e8;
 }
 #little36{
   position: absolute;
@@ -1412,7 +1424,7 @@ position: absolute;
  top: 6625px;
   height: 80px;
   width: 130px;
-    background-color: lightpink;
+    background-color: #ffe6e8;
   }
 /*End of tenth page*/
 
@@ -1423,7 +1435,7 @@ position: absolute;
 /*Start of twelfth page*/
 #circ{
   position: absolute;
-  background-color: white;
+  background-color: #fffaf0;;
   height: 600px;
   width: 600px;
   border-style: solid;
@@ -1432,6 +1444,7 @@ position: absolute;
   border-radius: 580px;
   top: 6800px;
   left: 350px;
+
 }
 
 #bluebox4{
@@ -1440,13 +1453,14 @@ position: absolute;
   left: 545px;
   width: 20px;
   height: 20px;
-  background-color: lightblue;
+  background-color: #bee5f4;
   border-radius: 5px;
 }
 
 #circContainer{
   position: relative;
   top: -1420px;
+  background-color:  #fffaf0;;
 }
 
 h13{
@@ -1475,7 +1489,7 @@ h15{
   font-family: arial;
   font-size: 30px;
   border-style: solid;
-  border-color:lightblue;
+  border-color:#bee5f4;
   border-radius: 10px;
   border-width: 5px;
   padding: 10px;
@@ -1498,7 +1512,7 @@ h16{
   height: 100px;
   border-style: solid;
   border-width: 5px;
-  border-color: lightblue;
+  border-color: #bee5f4;
   border-radius: 10px;
 }
 /* End of twelfth page*/
@@ -1515,12 +1529,13 @@ h16{
   background-color: white;
   border-width: 3px;
   border-style: solid;
-  border-color: skyblue;
+  border-color: #bee5f4;
   height: 600px;
   width: 600px;
   border-radius: 580px;
   top: 7970px;
   left: 350px;
+  background-color:  #fffaf0;
 }
 
 #pinkbox5{
@@ -1529,7 +1544,7 @@ h16{
   left: 530px;
   width: 20px;
   height: 20px;
-  background-color: pink;
+  background-color: #ffe6e8;
   border-radius: 5px;
 }
 
@@ -1579,7 +1594,7 @@ h21{
   top: 8250px;
   width: 1255px;
   height: 30px;
-  background-color: lightpink;
+  background-color: #ffe6e8;
 }
 /*End of thirteenth page*/
 
