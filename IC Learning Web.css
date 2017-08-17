@@ -99,7 +99,7 @@ body{
 #rightNavigation{
   position: absolute;
   top: 0px;
-  left:959px;
+  left:75.8%;
   word-break: break-all;
   z-index: 1;
 }
@@ -161,8 +161,8 @@ span{
   left: 0px;
   right: 0px;
   top: -212px;
-  width: 1263px;
-  height: 510px;
+  width: 101.1%;
+  height: 340%;
   z-index: -2;
   filter: brightness(45%);
 }
