@@ -156,7 +156,7 @@ $("#whito8").mouseenter(function(){
   width: '550px',
   height: '550px',
   top: '6825px',
-  left: '375px'
+  left: '30%'
   })
 })
 
@@ -165,7 +165,7 @@ $("#whito8").mouseleave(function(){
   width: '600px',
   top: '6800px',
   height: '600px',
-  left: '350px'
+  left: '28%'
   })
 })
 
