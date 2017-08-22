@@ -30,7 +30,7 @@ $(".weekendprogram").mouseenter(function(){
       height: '50px',
       width:'645px',
       left: '315px',
-      top: '32%'
+      top: '60px'
     });
   })
 
@@ -84,7 +84,7 @@ $(".stateprogram").mouseenter(function(){
       height: '50px',
       width:'560px',
       left: '353px',
-      top: '0%'
+      top: '-6px'
     });
   })
 
@@ -173,7 +173,7 @@ $("#whito9").mouseenter(function(){
   $("#circ1").animate({
   width: '550px',
   height: '550px',
-  top: '7999px',
+  top: '7995px',
   left: '375px'
   })
 })
@@ -181,7 +181,7 @@ $("#whito9").mouseenter(function(){
 $("#whito9").mouseleave(function(){
   $("#circ1").animate({
   width: '600px',
-  top: '7974px',
+  top: '7970px',
   height: '600px',
   left: '350px'
   })
@@ -329,7 +329,6 @@ $(".blue1").mouseenter(function(){
       top: '3080px'
     });
   })
-
 $(".blue1").mouseleave(function(){
     $("#white1").animate({
       height: '560px',
@@ -339,7 +338,6 @@ $(".blue1").mouseleave(function(){
       top: '3030px'
     });
   })
-
 $(".pink1").mouseenter(function(){
     $("#white2").animate({
       height: '450px',
@@ -349,8 +347,6 @@ $(".pink1").mouseenter(function(){
       top: '3700px'
     });
   })
-
-
 $(".pink1").mouseleave(function(){
     $("#white2").animate({
       height: '560px',
@@ -360,7 +356,6 @@ $(".pink1").mouseleave(function(){
       top: '3650px'
     });
   })
-
 $(".blue2").mouseenter(function(){
     $("#white3").animate({
       height: '450px',
@@ -370,7 +365,6 @@ $(".blue2").mouseenter(function(){
       top: '4320px'
     });
   })
-
 $(".blue2").mouseleave(function(){
     $("#white3").animate({
       height: '560px',
@@ -380,8 +374,6 @@ $(".blue2").mouseleave(function(){
       top: '4270px'
     });
   })
-
-
 $(".pink2").mouseenter(function(){
     $("#white4").animate({
       height: '450px',
@@ -391,7 +383,6 @@ $(".pink2").mouseenter(function(){
       top: '4940px'
     });
   })
-
 $(".pink2").mouseleave(function(){
     $("#white4").animate({
       height: '560px',
@@ -401,7 +392,6 @@ $(".pink2").mouseleave(function(){
       top: '4890px'
     });
   })
-
 $(".blue3").mouseenter(function(){
     $("#white5").animate({
       height: '450px',
@@ -411,8 +401,6 @@ $(".blue3").mouseenter(function(){
       top: '5560px'
     });
   })
-
-
 $(".blue3").mouseleave(function(){
     $("#white5").animate({
       height: '560px',
@@ -422,7 +410,6 @@ $(".blue3").mouseleave(function(){
       top: '5510px'
     });
   })
-
 $(".pink3").mouseenter(function(){
     $("#white6").animate({
       height: '450px',
@@ -432,7 +419,6 @@ $(".pink3").mouseenter(function(){
       top: '6180px'
     });
   })
-
 $(".pink3").mouseleave(function(){
     $("#white6").animate({
       height: '560px',
