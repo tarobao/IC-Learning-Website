@@ -130,13 +130,12 @@ nav{
 }
 
 .wowza{
-  position:absolute;
-  top: 15%;
-  width: 100%;
+  position:relative;
+  top: 70px;
   opacity: .9;
   color: #fffaf0;
   font-family: 'Lato', sans-serif;
-  font-size: 110%;
+  font-size: 95%;
   text-transform: uppercase;
   text-align: center;
   }
@@ -169,11 +168,9 @@ span{
 }
 
 #firstTitle{
-  text-align: center;
   font-size: 440%;
-  position: absolute;
-  top: 5%;
-  left: 10%;
+  position: relative;
+  top: -110px;
   margin: 10%;
   color: #fffaf0;
 }
@@ -185,7 +182,8 @@ span{
   color: white;
   text-align: center;
   margin: 50px;
-  top: 60%;
+  left: 10px;
+  top: 335px;
   line-height: 25px;
 }
 
@@ -228,7 +226,7 @@ span{
 /*Start of second page*/
 #little1{
   position: absolute;
-  top: 104%;
+  top: 620px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -237,7 +235,7 @@ span{
 
 #little2{
   position: absolute;
-  top: 104%;
+  top: 620px;
   right: 0%;
 width: 10%;
   height: 13%;
@@ -272,7 +270,6 @@ width: 10%;
 .programs ul li{
   padding: 5px;
   position: relative;
-  /*list*/
   top: 380px;
   font-size: 24px;
   font-family: 'Lato', sans-serif;
@@ -298,7 +295,7 @@ width: 10%;
 #leftPic{
   position: absolute;
   left: 5%;
-  top: 130%;
+  top: 780px;
   width: 20%;
   height: 60%;
   border-radius: 250%;
@@ -306,7 +303,7 @@ width: 10%;
 
 #rightPic{
   position: absolute;
-  top: 130%;
+  top: 780px;
   width: 20%;
   height: 60%;
   right: 5%;
@@ -315,7 +312,7 @@ width: 10%;
 
 #little3{
   position: absolute;
-  top: 193%;
+  top: 1155px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -324,7 +321,7 @@ width: 10%;
 
  #little4{
   position: absolute;
-  top: 193%;
+  top: 1155px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -337,7 +334,7 @@ width: 10%;
 
 #little5{
   position: absolute;
-  top: 208%;
+  top: 1240px;
   left: 0%;
  width: 10%;
   height: 13%;
@@ -346,7 +343,7 @@ background-color: #bee5f4;
 
 #little6{
   position: absolute;
-  top: 208%;
+  top: 1240px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -355,7 +352,7 @@ background-color: #bee5f4;
 
 #pinkbox1{
   position: absolute;
-  top: 32%;
+  top: 60px;
   left: 50%;
   width: 20px;
   height: 20px;
@@ -365,7 +362,7 @@ background-color: #bee5f4;
 
 .weekendprogram{
   position: absolute;
-  top: 210%;
+  top: 1280px;
 }
 
 .weekendprogram h6{
@@ -378,7 +375,7 @@ background-color: #bee5f4;
 
 .weekendprogram ul{
   position: absolute;
-  top: 69%;
+  top: 119px;
   left: 32%;
   margin: 0px;
 }
@@ -398,13 +395,13 @@ background-color: #bee5f4;
   line-height: 175px;
   text-transform: uppercase;
   position: absolute;
-  top: 25%;
+  top: 45px;
   left: 36%;
 }
 
 #weekendDuration{
   position:absolute;
-  top: 69%;
+  top: 120px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   left: 54%;
@@ -413,7 +410,7 @@ background-color: #bee5f4;
 
 #Eng{
   position:absolute;
-  top: 100%;
+  top: 175px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   left: 54%;
@@ -422,7 +419,7 @@ background-color: #bee5f4;
 
 #Mat{
   position: absolute;
-  top: 200%;
+  top: 350px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   left: 54%;
@@ -431,7 +428,7 @@ background-color: #bee5f4;
 
 #little7{
   position: absolute;
-  top: 297%;
+  top: 1775px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -440,7 +437,7 @@ background-color: #bee5f4;
 
  #little8{
   position: absolute;
-  top: 297%;
+  top: 1775px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -452,7 +449,7 @@ background-color: #bee5f4;
 /*Start of fourth page*/
  #little9{
   position: absolute;
-  top: 312%;
+  top: 1860px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -461,7 +458,7 @@ background-color: #ffe6e8;
 
 #little10{
   position: absolute;
-  top: 312%;
+  top: 1860px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -470,7 +467,7 @@ background-color: #ffe6e8;
 
 #bluebox1{
   position: absolute;
-  top: 0%;
+  top: -6px;
   left: 65%;
   width: 20px;
   height: 20px;
@@ -480,7 +477,7 @@ background-color: #ffe6e8;
 
 .stateprogram{
   position: absolute;
-  top: 330%;
+  top: 1990px;
 }
 
 .stateprogram h7{
@@ -489,7 +486,7 @@ background-color: #ffe6e8;
   font-size: 30px;
   font-family: courier;
 }
-/*list*/
+
 .stateprogram ul{
   position: absolute;
   top: 50px;
@@ -539,7 +536,7 @@ position: relative;
 
 #little11{
   position: absolute;
-  top: 401%;
+  top: 2395px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -548,7 +545,7 @@ position: relative;
 
  #little12{
   position: absolute;
-  top: 401%;
+  top: 2395px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -559,7 +556,7 @@ position: relative;
 /*Start of fifth page*/
   #little13{
   position: absolute;
-  top: 416%;
+  top: 2480px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -568,7 +565,7 @@ position: relative;
 
 #little14{
   position: absolute;
-  top: 416%;
+  top: 2480px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -587,7 +584,7 @@ position: relative;
 
 .r2s{
   position: absolute;
-  top: -290%;
+  top: -1750px;
 }
 .r2s h8{
   position: relative;
@@ -656,7 +653,7 @@ position: relative;
 
 #little15{
   position: absolute;
-  top: 505%;
+  top: 3015px;
   left: 0%;
   width: 10%;
   height: 13%;
@@ -665,7 +662,7 @@ position: relative;
 
  #little16{
   position: absolute;
-  top: 505%;
+  top: 3015px;
   right: 0%;
   width: 10%;
   height: 13%;
@@ -678,7 +675,7 @@ position: relative;
 #little17{
   position: absolute;
   left: 0%;
-  top: 520%;
+  top: 3105px;
   width: 10%;
   height: 13%;
    background-color:#ffe6e8;
@@ -687,7 +684,7 @@ position: relative;
 #little18{
   position: absolute;
   right: 0%;
-  top: 520%;
+  top: 3105px;
   width: 10%;
   height: 13%;
  background-color: #ffe6e8;
@@ -785,7 +782,7 @@ font-size: 18px;
 #little19{
   position: absolute;
   left: 0%;
-  top: 609%;
+  top: 3640px;
   width: 10%;
   height: 13%;
  background-color:#ffe6e8;
@@ -793,7 +790,7 @@ font-size: 18px;
 #little20{
   position: absolute;
   right: 0%;
-  top: 609%;
+  top: 3640px;
   width: 10%;
   height: 13%;
    background-color: #ffe6e8;
@@ -806,7 +803,7 @@ font-size: 18px;
 #little21{
   position: absolute;
   left: 0%;
-  top: 624%;
+  top: 3725px;
   width: 10%;
   height: 13%;
   background-color: #bee5f4;
@@ -815,7 +812,7 @@ font-size: 18px;
 #little22{
   position: absolute;
   right: 0%;
-  top: 624%;
+  top: 3725px;
   width: 10%;
   height: 13%;
   background-color: #bee5f4;
@@ -928,7 +925,7 @@ font-size: 18px;
 #little23{
   position: absolute;
   left: 0%;
-  top: 713%;
+  top: 4260px;
   width: 10%;
   height: 13%;
   background-color: #bee5f4;
@@ -936,7 +933,7 @@ font-size: 18px;
 #little24{
   position: absolute;
   right: 0%;
-  top: 713%;
+  top: 4260px;
   width: 10%;
   height: 13%;
   background-color: #bee5f4;
@@ -946,11 +943,10 @@ font-size: 18px;
 
 /*Start of eighth page*/
 
-/* Rectangular white block cover */
 #little25{
   position: absolute;
   left: 0%;
-  top: 728%;
+  top: 4350px;
   width: 10%;
   height: 13%;
   background-color: #ffe6e8;
@@ -960,7 +956,7 @@ font-size: 18px;
 #little26{
   position: absolute;
   right: 0%;
-  top: 728%;
+  top: 4350px;
   width: 10%;
   height: 13%;
   background-color: #ffe6e8;
@@ -978,7 +974,7 @@ font-size: 18px;
 
 .mathread{
   position: absolute;
-  top: -1750px;
+  top: -1770px;
 }
 .mathread h11{
   position: relative;
@@ -1077,7 +1073,7 @@ font-size: 18px;
 #little27{
   position: absolute;
   left: 0%;
-  top: 817%;
+  top: 4885px;
   width: 10%;
   height: 13%;
    background-color:#ffe6e8;
@@ -1085,7 +1081,7 @@ font-size: 18px;
 #little28{
   position: absolute;
   right: 0%;
-   top: 817%;
+   top: 4885px;
   width: 10%;
   height: 13%;
   background-color:#ffe6e8;
@@ -1097,7 +1093,7 @@ font-size: 18px;
 #little29{
   position: absolute;
   left: 0%;
-  top: 832%;
+  top: 4970px;
   width: 10%;
   height: 13%;
    background-color: #bee5f4;
@@ -1106,7 +1102,7 @@ font-size: 18px;
 #little30{
   position: absolute;
   right: 0%;
-   top: 832%;
+   top: 4970px;
   width: 10%;
   height: 13%;
   background-color: #bee5f4;
@@ -1114,7 +1110,7 @@ font-size: 18px;
 
 .blue4{
   position: relative;
-  top: 840px;
+  top: 390px;
 }
 .slider{
   position: relative;
@@ -1157,7 +1153,7 @@ font-size: 18px;
 #little31{
   position: absolute;
   left: 0%;
-  top: 921%;
+  top: 5505px;
   width: 10%;
   height: 13%;
     background-color: #bee5f4;
@@ -1165,7 +1161,7 @@ font-size: 18px;
 #little32{
   position: absolute;
   right: 0%;
- top: 921%;
+ top: 5505px;
   width: 10%;
   height: 13%;
   background-color: #bee5f4;
@@ -1177,7 +1173,7 @@ font-size: 18px;
 #little33{
   position: absolute;
   left: 0%;
-  top: 936%;
+  top: 5590px;
   width: 10%;
   height: 13%;
   background-color: #ffe6e8;
@@ -1186,7 +1182,7 @@ font-size: 18px;
 #little34{
   position: absolute;
   right: 0%;
-   top: 936%;
+   top: 5590px;
   width: 10%;
   height: 13%;
    background-color: #ffe6e8;
@@ -1194,7 +1190,7 @@ font-size: 18px;
 
 .Staff{
   position: relative;
-  top: 4360px;
+  top: 3860px;
   font-family: courier;
   color: #66c1e5;
   font-size: 32px;
@@ -1354,7 +1350,7 @@ font-size: 18px;
 #little35{
   position: absolute;
   left: 0%;
-  top: 1120%;
+  top: 6625px;
   width: 10%;
   height: 13%;
    background-color: #ffe6e8;
@@ -1362,7 +1358,7 @@ font-size: 18px;
 #little36{
   position: absolute;
   right: 0%;
- top: 1120%;
+ top: 6625px;
   width: 10%;
   height: 13%;
     background-color: #ffe6e8;
@@ -1400,7 +1396,7 @@ font-size: 18px;
 
 #circContainer{
   position: relative;
-  top: -600px;
+  top: -1020px;
   background-color:  #fffaf0;;
 }
 
@@ -1462,7 +1458,7 @@ h16{
 
 #circ1Container{
   position: relative;
-  top: -450px;
+  top: -900px;
 }
 
 #circ1{
@@ -1474,7 +1470,7 @@ h16{
   height: 600px;
   width: 600px;
   border-radius: 580px;
-  top: 7974px;
+  top: 7970px;
   left: 28%;
   background-color:  #fffaf0;
 }
