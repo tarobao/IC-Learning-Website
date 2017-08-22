@@ -30,7 +30,7 @@ $(".weekendprogram").mouseenter(function(){
       height: '50px',
       width:'645px',
       left: '315px',
-      top: '60px'
+      top: '32%'
     });
   })
 
@@ -84,7 +84,7 @@ $(".stateprogram").mouseenter(function(){
       height: '50px',
       width:'560px',
       left: '353px',
-      top: '-6px'
+      top: '0%'
     });
   })
 
@@ -173,7 +173,7 @@ $("#whito9").mouseenter(function(){
   $("#circ1").animate({
   width: '550px',
   height: '550px',
-  top: '7995px',
+  top: '7999px',
   left: '375px'
   })
 })
@@ -181,7 +181,7 @@ $("#whito9").mouseenter(function(){
 $("#whito9").mouseleave(function(){
   $("#circ1").animate({
   width: '600px',
-  top: '7970px',
+  top: '7974px',
   height: '600px',
   left: '350px'
   })
