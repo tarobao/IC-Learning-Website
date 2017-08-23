@@ -10,16 +10,16 @@ Started on 7/4/17
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="IC Learning Web.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <script src="IC Learning Web.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <!-- Start of first page -->
+    <!-- Start of first page 
     <div id="leftNavigation">
         <nav>
           <ul>
@@ -46,121 +46,128 @@ Started on 7/4/17
         
        
     <div id="rightNavigation">
-          <nav>
-            <ul>
-              <li> <a href="#discount" onclick="myDiscount()">Discounts</a></li>
-              <li> <a href="#con" onclick="myContact()">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-
-      <div class= "wowza">
-        <p1> <span>i</span>C </p1>
-        <h2 id= "firstTitle"> ic Learning Center  </h2>
-      </div>
-
-      <img id="firstImage" src = "backImage.jpg" >
-
-      <div id= "firstPageLeftBlueBlock"></div>
-      <div id="firstPageRightBlueBlock"></div>
-
-      <div id="block1">
-        <p id= "firstPageTextBlock">  <B>-Mission Statement-</B>
-        <br> IC is the individualized care given to each learner. 
-        The emphasis at iC Learning Center is geared towards preparing each individual 
-        for academic and personal success. 
-        No matter how small or big the improvement, 
-        our IC Learning Staff are always satisfied and excited to help more.</p>
-      </div>
-    
-      <div id="block2">
-        <p id="address">
-        Location: 109 Lafayette Street, Suite 805 
-        (between Canal Street &#38; Walker Street) 
-        New York, NY  10013</p>
-      </div>
-
-      <!--End of first page-->
-    
-      <!-- Start of first page
-      Little represents the corner small boxes -->
-      <div id= "little1"></div>
-      <div id= "little2"></div>
-
-      <h5 id="ourPrograms"> - Our Programs - </h5>
-      <!-- Put header under -->
-      <div class= "programs">
+      <nav>
         <ul>
-          <li> <a href="#weekend" onclick="myWeekend()"> - English and Math Weekend Program - </a></li>
-          <li> <a href="#gifted" onclick="myTestPrep()">- ELA &#38; Math State Test Prep -</a></li>
-          <li> <a href="#read" onclick="myRead()">- Read to Succeed Afterschool Program -</a></li>
-          <li> <a href="#write" onclick= "myWrite()">- Write to Succeed Afterschool Program -</a></li>
-          <li> <a href="#engread" onclick= "myMiddleEnglish()" >- Middle School English Readiness -</a></li>
-          <li> <a href="#mathread" onclick= "myMiddleMath()">- Middle School Math Readiness -</a></li>
+          <li> <a href="#discount" onclick="myDiscount()">Discounts</a></li>
+          <li> <a href="#con" onclick="myContact()">Contact</a></li>
         </ul>
-      </div>
+      </nav>
+    </div>-->
 
-      <img id="leftPic" src="path.JPG">
+    <div class="landing">
+<!--       <img class="background" src ="backImage.jpg" > -->
+      <div class="landing-info center container">
+        <div class="logo"><h1>iC</h1></div>
+        <h1>IC LEARNING CENTER</h1>
+        <div class="container mission">
+          <h3>-Mission Statement-</h3>
+          <br>IC is the individualized care given to each learner. The emphasis at iC Learning Center is geared towards preparing each individual for academic and personal success. No matter how small or big the improvement, our IC Learning Staff are always satisfied and excited to help more.
+        </div>
+      </div>
+    </div>
+
+
+<!--       <div id= "firstPageLeftBlueBlock"></div>
+      <div id="firstPageRightBlueBlock"></div> -->
+  
+    <div class="container center">
+      <p class="address">Location: 109 Lafayette Street, Suite 805 (between Canal Street &#38; Walker Street) New York, NY  10013</p>
+    </div>
+
+    <!--End of first page-->
+  
+    <!-- Start of first page
+    Little represents the corner small boxes -->
+<!--     <div id= "little1"></div>
+    <div id= "little2"></div> -->
+
+    <!-- Put header under -->
+    <div class="programs">
+      <h5> - Our Programs - </h5>
+      <ul>
+        <li> <a href="#weekend" onclick="myWeekend()"> - English and Math Weekend Program - </a></li>
+        <li> <a href="#gifted" onclick="myTestPrep()">- ELA &#38; Math State Test Prep -</a></li>
+        <li> <a href="#read" onclick="myRead()">- Read to Succeed Afterschool Program -</a></li>
+        <li> <a href="#write" onclick= "myWrite()">- Write to Succeed Afterschool Program -</a></li>
+        <li> <a href="#engread" onclick= "myMiddleEnglish()" >- Middle School English Readiness -</a></li>
+        <li> <a href="#mathread" onclick= "myMiddleMath()">- Middle School Math Readiness -</a></li>
+      </ul>
+    </div>
+
+      <!-- <img id="leftPic" src="path.JPG">
       <img id="rightPic" src="log.JPG">
 
       <div id= "little3"></div>
-      <div id= "little4"></div>
+      <div id= "little4"></div> -->
       <!-- End of second page-->
 
       <!-- Start of third page -->
-      <div id= "little5"></div>
-      <div id= "little6"></div>
+      <!-- <div id= "little5"></div>
+      <div id= "little6"></div> -->
 
-      <div id="whito1">
-        <div class="weekendprogram">
-          <div id="pinkbox1"></div>
+      <div class="container">
+        <div class="weekend">
+          <!-- <div id="pinkbox1"></div> -->
           <h6>- English and Math Weekend Program-</h6>
-          <p id="weekendDurationTag"> Duration: </p>
-          <p id= "weekendDuration"> Saturdays and Sundays, 2 hours </p>
-          <p id= "Eng"> The curriculum begins with Phonics and progresses to Advanced Grammar. Your child will improve his/her reading comprehension skills, and learn the best approach to responding to short answer questions and multiple choice questions. Your child’s lexicon will greatly expand, and he/ she will learn to associate words with mental images. This is an essential step in the literacy process. </p>
-          <p id= "Mat"> Using the same Singaporean Math Method taught in schools, your child will learn and practice the essential basics of Addition, Subtraction, Multiplication and Division, building the confidence to approach and succeed at higher level math. Once a strong foundation has been established, your child will proceed to Algebra, Geometry, and Trigonometry.  </p>
-          <ul>
-            <li> English: </li>
-            <li> Math: </li>
-          </ul>
+          <div class="row">
+            <p class="title">Duration: </p>
+            <p class="desc">Saturdays and Sundays, 2 hours </p>
+          </div>
+            <div class="row">
+            <p class="title">English: </p>
+            <p class="desc">The curriculum begins with Phonics and progresses to Advanced Grammar. Your child will improve his/her reading comprehension skills, and learn the best approach to responding to short answer questions and multiple choice questions. Your child’s lexicon will greatly expand, and he/ she will learn to associate words with mental images. This is an essential step in the literacy process. </p>
+          </div>
+          <div class="row">
+            <p class="title">Math: </p>
+            <p class="desc">Using the same Singaporean Math Method taught in schools, your child will learn and practice the essential basics of Addition, Subtraction, Multiplication and Division, building the confidence to approach and succeed at higher level math. Once a strong foundation has been established, your child will proceed to Algebra, Geometry, and Trigonometry.</p>
+          </div>
         </div>
       </div>
 
-      <div id= "little7"></div>
-      <div id= "little8"></div>
+      <!-- <div id= "little7"></div>
+      <div id= "little8"></div> -->
 
       <!-- End of third page-->
  
 
       
       <!-- Start of fourth page -->
-      <div id= "little9"></div>
-      <div id= "little10"></div>
+      <!-- <div id= "little9"></div>
+      <div id= "little10"></div> -->
 
-    
-        <div id= "white2"></div>
+<!--       <div id= "white2"></div> -->
+      <div class="container">
         <div class="stateprogram">
-          <div id="bluebox1"></div>
-          <h7> - ELA &#38; Math State Test Prep - </h7>
-          <p id="registration">  Saturdays and Sundays, 3 hours</p>
-          <p id="text"> This is a weekend program (Sat or Sun) where your child will learn effective strategies to achieve high scores on NYC Statewide Exams. Students will practice a multitude of questions in a variety of formats, including Multiple-Choice, Numeric Entry, Word Problems, Short and Long Responses </p>
-          <p id="special"> We offer a free, personalized review session any day of the week. During this period, your child will go over critical concepts, strengthen his/her weak points, and further bolster his/ her test taking skills to go into any exam with the utmost confidence.  </p>
+        <!--         <div id="bluebox1"></div> -->
+          <h6> - ELA &#38; Math State Test Prep - </h6>
           <ul>
-            <li> Duration: </li>
-            <li> Info: </li><br><br><br>
-            <li> Special: </li>
+            <li>
+              <em class="row-title">Duration: </em>
+              <p class="desc">Saturdays and Sundays, 3 hours</p>
+            </li>
+
+            <li>
+              <em class="row-title">Info: </em>
+              <p class="desc">This is a weekend program (Sat or Sun) where your child will learn effective strategies to achieve high scores on NYC Statewclasse Exams. Students will practice a multitude of questions in a variety of formats, including Multiple-Choice, Numeric Entry, Word Problems, Short and Long Responses </p>
+            </li>
+
+            <li>
+              <em class="row-title">Special: </em>
+              <p class="desc">We offer a free, personalized review session any day of the week. During this period, your child will go over critical concepts, strengthen his/her weak points, and further bolster his/ her test taking skills to go into any exam with the utmost confidence.</p>
+            </li>
           </ul>
-        </div>
+        </div>  
+      </div>
 
      
-      <div id= "little11"></div>
-      <div id= "little12"></div>
+      <!-- <div id= "little11"></div>
+      <div id= "little12"></div> -->
       <!-- End of fourth page -->
 
       
       <!-- Start of fifth page -->
-      <div id= "little13"></div>
-      <div id= "little14"></div>
+      <!-- <div id= "little13"></div>
+      <div id= "little14"></div> -->
 
       <div class="blue2">
         <div id="whito3">
